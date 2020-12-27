@@ -1,0 +1,40 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+h1 {
+    position: relative;
+    top: 20%;
+    font-weight: 400;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.center {
+    position: absolute;
+    left: 45%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorchanger {
+    border: 2px solid black;
+    border-radius: 5px;
+    outline: none;
+    padding: 8px 22px 6px;
+    font-size: 18px;
+    color: white;
+    background-color: black;
+    transition: ease-in-out 0.3s;
+    cursor: pointer;
+}
+
+#colorchanger:hover {
+    border: 2px solid white;
+    background-color: white;
+    color: black;
+}
